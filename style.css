@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html {
+   font-size: 13px;
+   font-weight: 300;
+   overflow-x: hidden;
+   color: #434343;
+}
+body {
+   font-family: "Work Sans", sans-serif;
+}
+.container-adjust {
+   width: 85%;
+   margin: 0 auto;
+}
+.container-fluid {
+   padding: 0;
+}
+p {
+   line-height: 1.6rem;
+   font-weight: 300;
+   letter-spacing: -0.02rem;
+}
+.line {
+   width: 10rem;
+   border-bottom: 1px solid #fff;
+}
+/* navbar----------------------------- */
+.navbar-brand img {
+   width: 20rem;
+}
+.collapse {
+   float: right;
+}
+.navbar-collapse {
+   flex-grow: unset;
+}
+.nav-background {
+   background-color: #000;
+   color: #fff;
+}
+.nav-background a {
+   color: #fff;
+   text-transform: uppercase;
+   letter-spacing: 0.2rem;
+   font-weight: 100;
+}
+
+/* Section 1-------------------------- */
+.header-container {
+   min-height: 80vh;
+   max-height: auto;
+   display: flex;
+}
+.section-1-container {
+   min-height: 100vh;
+   max-height: auto;
+}
+.section-1-container-inner {
+   background: rgb(0, 0, 0);
+   background: linear-gradient(
+      0deg,
+      rgba(0, 14, 59, 1) 0%,
+      rgba(0, 0, 0, 1) 100%
+   );
+   background-repeat: no-repeat;
+   background-position: right top;
+   padding: 0 0 2rem;
+   min-height: 80vh;
+   max-height: auto;
+}
+.header-inner {
+   display: flex;
+   align-items: center;
+   color: #fff;
+}
+h1 {
+   font-size: 4rem;
+   font-weight: 800;
+   letter-spacing: -0.1rem;
+}
+h2 {
+   font-size: 1.2rem;
+   font-weight: 500;
+   line-height: 2rem;
+   letter-spacing: -0.02rem;
+}
+.tags span {
+   padding: 0.1rem 0.8rem;
+   background-color: #fff;
+   border-radius: 25px;
+   margin-right: 0.5rem;
+   color: #000;
+}
+.section-1-container .line {
+   margin: 2rem 0;
+}
+.book {
+   position: relative;
+}
+.book img {
+   position: absolute;
+   top: 10vh;
+   left: 0;
+   width: 30rem;
+   height: auto;
+   box-shadow: -46px 6px 49px 0px rgba(0, 0, 0, 0.75);
+   -webkit-box-shadow: -46px 6px 49px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: -46px 6px 49px 0px rgba(0, 0, 0, 0.75);
+}
+.platforms {
+   display: flex;
+   margin-top: 1rem;
+}
+.img-div {
+   cursor: pointer;
+   width: 15rem;
+}
+.platforms img {
+   width: 100%;
+}
+
+/* Section 2------------------------------ */
+.section-2-container {
+   min-height: 100vh;
+   max-height: auto;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   padding: 3rem 0 0;
+   background: rgb(0, 0, 0);
+   color: #a7a7a7;
+   display: flex;
+   align-items: center;
+}
+h3 {
+   font-size: 4.5rem;
+   font-weight: 700;
+   letter-spacing: -0.1rem;
+}
+.section-2-container .line {
+   border-color: #fff;
+   margin: 3rem 0;
+}
+.profile-image-div {
+   width: 15rem;
+   height: 15rem;
+}
+.profile-image-div img {
+   border-radius: 50%;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: top;
+}
+.description {
+   display: flex;
+   align-items: flex-end;
+}
+.description p {
+   font-size: 1.6rem;
+   line-height: 2.4rem;
+}
+video {
+   width: 100%;
+   height: 100%;
+   background-color: #fff;
+}
+
+/* section 3------------------------ */
+.section-3-container {
+   min-height: 40vh;
+   max-height: auto;
+   margin-top: 4rem;
+}
+h5 {
+   font-size: 3rem;
+   font-weight: 700;
+   letter-spacing: -0.1rem;
+}
+.section-3-container p {
+   font-size: 1.5rem;
+   font-weight: 400;
+   line-height: 2rem;
+}
+video {
+   margin-bottom: 2rem;
+   background-color: #000;
+}
+/* book image format-------------------- */

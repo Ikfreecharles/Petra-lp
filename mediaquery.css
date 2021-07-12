@@ -1,0 +1,64 @@
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 200px) {
+   /* Styles */
+   html {
+      font-size: 9px;
+   }
+   .book img {
+      position: unset;
+   }
+   .section-3-container {
+      margin-top: 2rem;
+   }
+   button.navbar-toggler.collapsed {
+      color: #fff;
+   }
+   .navbar-toggler {
+      color: #fff;
+   }
+   .navbar-toggler-icon {
+      color: #fff;
+   }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 767px) {
+   /* Styles */
+   html {
+      font-size: 11px;
+   }
+   .book img {
+      position: unset;
+   }
+}
+@media only screen and (min-width: 768px) {
+   .book img {
+      top: 10vh;
+      position: absolute;
+   }
+   .section-3-container {
+      margin-top: 4rem;
+   }
+   video {
+      margin-top: 3rem;
+   }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+   /* Styles */
+   html {
+      font-size: 14px;
+   }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+   /* Styles */
+   html {
+      font-size: 16px;
+   }
+}
