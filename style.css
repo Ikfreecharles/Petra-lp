@@ -62,14 +62,11 @@ p {
    max-height: auto;
 }
 .section-1-container-inner {
-   background: rgb(0, 0, 0);
-   background: linear-gradient(
-      0deg,
-      rgba(0, 14, 59, 1) 0%,
-      rgba(0, 0, 0, 1) 100%
-   );
-   background-repeat: no-repeat;
-   background-position: right top;
+   background: #000013;
+   background-image: url(/images/5566882.png);
+   background-size: contain;
+   background-repeat: repeat;
+   background-position: left bottom;
    padding: 0 0 2rem;
    min-height: 80vh;
    max-height: auto;
@@ -133,7 +130,7 @@ h2 {
    padding: 0;
    width: 100%;
    padding: 3rem 0 0;
-   background: rgb(0, 0, 0);
+   background: #000013;
    color: #a7a7a7;
    display: flex;
    align-items: center;
@@ -163,8 +160,8 @@ h3 {
    align-items: flex-end;
 }
 .description p {
-   font-size: 1.6rem;
-   line-height: 2.4rem;
+   font-size: 1.3rem;
+   line-height: 2rem;
 }
 video {
    width: 100%;
@@ -184,9 +181,9 @@ h5 {
    letter-spacing: -0.1rem;
 }
 .section-3-container p {
-   font-size: 1.5rem;
+   font-size: 1.3rem;
    font-weight: 400;
-   line-height: 2rem;
+   line-height: 1.8rem;
 }
 video {
    margin-bottom: 2rem;
