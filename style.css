@@ -10,6 +10,7 @@ html {
    font-weight: 300;
    overflow-x: hidden;
    color: #434343;
+   overscroll-behavior: none;
 }
 body {
    font-family: "Work Sans", sans-serif;
